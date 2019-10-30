@@ -36,7 +36,9 @@ p {
 
 #graham {
   display: flex;
+  margin: 25px;
   flex-direction: row-reverse;
+  align-items: center;  
   text-align: right;
 }
 
