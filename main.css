@@ -25,7 +25,7 @@ p {
 .scoreboard {
   display: flex;
   flex-direction: row;
-  justify-content: center;  
+  justify-content: center;
 }
 
 /*.player {
@@ -38,9 +38,16 @@ p {
 #graham {
   display: flex;
   flex-direction: row-reverse;
-  align-items: center;  
+  align-items: center;
   text-align: right;
 }
+
+#dash {
+  display: flex;
+  flex-direction: row;
+  text-align: 
+}
+
 #mike {
   display: flex;
   flex-direction: row;
