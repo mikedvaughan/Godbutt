@@ -26,6 +26,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 60px;
 }
 
 /*.player {
@@ -45,7 +46,7 @@ p {
 #dash {
   display: flex;
   flex-direction: row;
-  text-align: 
+  text-align:
 }
 
 #mike {
