@@ -25,6 +25,7 @@ p {
 .scoreboard {
   display: flex;
   flex-direction: row;
+  justify-content: center;  
 }
 
 /*.player {
