@@ -19,28 +19,64 @@ p {
   color: #F9F9F9;
 }
 
+/*---Mobile---*/
 
-/*-----*/
+.scoreboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 60px;
+}
 
-@media screen and (max-width: 600px) {
+#graham {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: right;
+}
+
+#dash {
+  display: none;
+}
+
+#mike {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.playerCard {
+
+}
+
+.playerRecord {
+  margin-top: 0px;
+}
+
+.avatarIMG{
+  width:100px;
+  height:100px;
+  margin: 0px 20px;
+  object-fit:cover;
+  border-radius:50%;
+}
+
+
+/*---Desktop---*/
+
+@media screen and (min-width: 600px) {
 html {
   background-color: #F9F9F9;
   }
 }
 
+/*
 .scoreboard {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 60px;
 }
-
-/*.player {
-  display: flex;
-  margin: 25px;
-  flex-direction: row;
-  align-items: center;
-}*/
 
 #graham {
   display: flex;
@@ -75,4 +111,4 @@ html {
   margin: 0px 20px;
   object-fit:cover;
   border-radius:50%;
-}
+}*
