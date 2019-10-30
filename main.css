@@ -36,7 +36,7 @@ p {
 #graham {
   display: flex;
   flex-direction: row-reverse;
-  text-align: right; 
+  text-align: right;
 }
 
 .playerCard {
@@ -46,6 +46,7 @@ p {
 .avatarIMG{
   width:100px;
   height:100px;
+  margin: 0px 20px;
   object-fit:cover;
   border-radius:50%;
 }
