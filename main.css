@@ -1,14 +1,15 @@
 html {
   background-color: #006BA6;
   font-family: helvetica;
-  font-color: #FFBC42;
 }
 
-H2 {
+h2 {
   font-size: 64px;
+  color: #FFBC42;
 }
 
 p {
   font-size: 16px;
-  font-color: whitesmoke;
+  font
+  color: whitesmoke;
 }
