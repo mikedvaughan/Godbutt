@@ -22,9 +22,11 @@ p {
 
 .scoreboard {
   display: flex;
+  flex-direction: row;
 }
 
 .player {
   display: flex;
   margin: 25px;
+  flex-direction: column;
 }
