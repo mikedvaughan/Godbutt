@@ -27,4 +27,5 @@ p {
 
 .player {
   display: flex;
+  margin: 25px;
 }
