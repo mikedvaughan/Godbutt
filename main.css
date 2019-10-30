@@ -22,6 +22,12 @@ p {
 
 /*-----*/
 
+@media screen and (max-width: 300px) {
+html {
+  background-color: #F9F9F9;
+  }
+}
+
 .scoreboard {
   display: flex;
   flex-direction: row;
