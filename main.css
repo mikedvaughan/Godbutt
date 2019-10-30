@@ -27,6 +27,7 @@ p {
 }
 
 .player {
+  display: flex;
   margin: 25px;
   flex-direction: row;
 }
