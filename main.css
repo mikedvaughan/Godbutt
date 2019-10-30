@@ -6,6 +6,7 @@ html {
 
 h2 {
   font-size: 64px;
+  margin:0px;
 }
 
 h3 {
@@ -26,7 +27,10 @@ p {
 }
 
 .player {
-  display: flex;
   margin: 25px;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.playerCard {
+  flex direction:
 }
