@@ -33,6 +33,11 @@ p {
   flex-direction: row;
 }
 
+.player div:first-of-type {
+  flex-direction: row-reverse;
+}
+
+
 .playerCard {
   flex direction:
 }
