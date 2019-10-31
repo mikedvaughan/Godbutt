@@ -14,6 +14,10 @@ h3 {
   margin: 0px;
 }
 
+h4 {
+  font-size: 15px;
+}
+
 p {
   font-size: 16px;
   color: #F9F9F9;
@@ -25,13 +29,18 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 10px;
+  margin: 20px;
 }
 
 #graham {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  margin-bottom: 10px;
+}
+
+#graham H3 {
+  font-size: 30px;
+  margin-top: -19px;
 }
 
 #dash {
@@ -41,20 +50,34 @@ p {
 #mike {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  margin-bottom: 10px;
 }
+
+#mike H3 {
+  font-size: 30px;
+  margin-top: -19px;
+}
+
+ .playerScore H2 {
+   font-size: 90px;
+   margin: -10px 0px 0px 0px;
+ }
 
 .playerCard {
 
 }
 
+.playerName {
+  margin-top: -15px;
+}
+
 .playerRecord {
-  margin-top: 0px;
+  margin-top: -15px;
 }
 
 .avatarIMG{
-  width:100px;
-  height:100px;
+  width:80px;
+  height:80px;
   margin: 0px 20px;
   object-fit:cover;
   border-radius:50%;
@@ -64,12 +87,6 @@ p {
 /*---Desktop---*/
 
 @media screen and (min-width: 600px) {
-html {
-  background-color: #F9F9F9;
-  }
-}
-
-/*
 .scoreboard {
   display: flex;
   flex-direction: row;
@@ -110,4 +127,5 @@ html {
   margin: 0px 20px;
   object-fit:cover;
   border-radius:50%;
-}*
+}
+}
