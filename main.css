@@ -82,54 +82,6 @@ p {
   object-fit:cover;
   border-radius:50%;
 }
-
-/*---Desktop---*/
-
-@media screen and (min-width: 600px) {
-.scoreboard {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: 60px;
-}
-
-#graham {
-  display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  text-align: right;
-  min-width: 350px;
-}
-
-#dash {
-  display: flex;
-  flex-direction: row;
-  margin: 20px;
-}
-
-#mike {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  min-width: 350px;
-}
-
-.playerCard {
-
-}
-
-.playerRecord {
-  margin-top: -15px;
-}
-
-.avatarIMG{
-  width:100px;
-  height:100px;
-  margin: 0px 20px;
-  object-fit:cover;
-  border-radius:50%;
-}
-
 .cal-container {
   display: flex;
   flex-direction: row;
@@ -177,4 +129,98 @@ p {
   flex-direction: column;
   margin-left: 5px;
 }
+/*---Desktop---*/
+
+@media screen and (min-width: 600px) {
+.scoreboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 60px;
+}
+
+#graham {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-align: right;
+  min-width: 350px;
+}
+
+#dash {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+#mike {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 350px;
+}
+
+.playerCard {
+
+}
+
+.playerRecord {
+  margin-top: -15px;
+}
+
+.avatarIMG{
+  width:100px;
+  height:100px;
+  margin: 0px 20px;
+  object-fit:cover;
+  border-radius:50%;
+}
+/*
+.cal-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.cal-graham {
+  display: flex;
+  flex-direction: row;
+}
+
+.grahamRecord {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.grahamTimes {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.dates {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.cal-mike {
+  display: flex;
+  flex-direction: row;
+}
+
+.mikeRecord {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+
+.mikeTimes {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}*/
 }
